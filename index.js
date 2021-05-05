@@ -1,6 +1,6 @@
 const findDepartment = require('./findDepartment.js');
 
-let position = "Image Processing Senior Reseacher";
+let position = "Director, Omni Channel Marketing";
 
 let department = findDepartment(position);
 
