@@ -25,14 +25,36 @@ let intentClassifier = new limdu.classifiers.EnhancedClassifier({
 
 
 intentClassifier.trainBatch([
-    { input: "it dev developer engineer junior seignior software", output: "IT" },
-    { input: "seller sales manager marketing customer application managing director", output: "Manager" },
+    { input: "it ai cad internet site information cloud technology artificial intelligence developer dev software", output: "IT" },
+    { input: "marketing", output: "Marketing" },
+    { input: "sales", output: "Sales" },
+    { input: "project", output: "Project" },
+    { input: "design designing", output: "Designing" },
+    { input: "purchasing", output: "Purchasing" },
+    { input: "product production manufacturing", output: "Production" },
+    { input: "maintenance customer support", output: "Maintenance" },
+    { input: "store", output: "Store" },
+    { input: "supplier", output: "Logistics" },
+    { input: "quality", output: "Quality" },
+    { input: "inspection", output: "Inspection" },
+    { input: "package packaging", output: "Packaging" },
+    { input: "financial", output: "Finance" },
+    { input: "account accounting", output: "Account" },
+    { input: "research r&d", output: "Research & Development" },
+    { input: "innovation", output: "Innovation" },
+    { input: "hr career mental health human resource resources ", output: "Human Resource" },
+    { input: "international business", output: "Business Development" },
+    { input: "security", output: "Security" },
+    { input: "administration ", output: "Administration" },
+    { input: "contract legal", output: "Legal" },
+
 ]);
 
 
 const findDepartment = (position) => {
     
     let positionFromDB = localWordExtractor(position);
+    console.log("<<< " + positionFromDB + " >>>");
 
     let department = intentClassifier.classify(positionFromDB); 
 

@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "limdu": "^0.9.4"
+    "limdu": "^0.9.4",
+    "npm": "^7.12.0"
   }
 }
