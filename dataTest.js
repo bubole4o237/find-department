@@ -49,7 +49,11 @@ let someData = `Director, Marketing"
 "Sr. Account Manager (Hotel/OTA)"
 "General Procurement Manager"
 "Accounts Executive"
-"HR Senior leader"
+"HR human Senior leader"
+"HR"
+"Human"
+"resource"
+"career"
 "Demand program expert, Marketing"
 "Master principal software engineer"
 "Enterprise-Class Technical Support Team Supervisor"
@@ -72,7 +76,9 @@ let someData = `Director, Marketing"
 "Component Lead Engineer"
 "Regional Business Controller - Int'l (APAC/MEA) - Cloud and Artificial Intelligence Controllership "
 "Account Executive in Microsoft Consulting Services"
-"General Manager Business Development"`;
+"General Manager Business Development"
+"it"
+"cloud"`;
 
 let someArray = someData.split('"\n"');
 

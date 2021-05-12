@@ -25,29 +25,34 @@ let intentClassifier = new limdu.classifiers.EnhancedClassifier({
 
 
 intentClassifier.trainBatch([
-    { input: "it ai cad internet site information cloud technology artificial intelligence developer dev software", output: "IT" },
+    { input: "cad web internet site information developer dev software", output: "IT" },
+    { input: "ai cloud artificial intelligence", output: "IT" },
+    { input: "it", output: "IT" },
     { input: "marketing", output: "Marketing" },
     { input: "sales", output: "Sales" },
     { input: "project", output: "Project" },
     { input: "design designing", output: "Designing" },
+    { input: "designer", output: "Designing" },
     { input: "purchasing", output: "Purchasing" },
-    { input: "product production manufacturing", output: "Production" },
-    { input: "maintenance customer support", output: "Maintenance" },
+    { input: "production products product production manufacturing", output: "Production" },
+    { input: "maintenance", output: "Maintenance" },
+    { input: "customer support", output: "Maintenance" },
     { input: "store", output: "Store" },
     { input: "supplier", output: "Logistics" },
     { input: "quality", output: "Quality" },
     { input: "inspection", output: "Inspection" },
-    { input: "package packaging", output: "Packaging" },
+    { input: "packaging package", output: "Packaging" },
     { input: "financial", output: "Finance" },
     { input: "account accounting", output: "Account" },
+    { input: "accounts", output: "Account" },
     { input: "research r&d", output: "Research & Development" },
     { input: "innovation", output: "Innovation" },
-    { input: "hr career mental health human resource resources ", output: "Human Resource" },
+    { input: "human resource resources career", output: "Human Resource" },
+    { input: "hr", output: "Human Resource" },
     { input: "international business", output: "Business Development" },
     { input: "security", output: "Security" },
-    { input: "administration ", output: "Administration" },
-    { input: "contract legal", output: "Legal" },
-
+    { input: "administration", output: "Administration" },
+    { input: "contract legal", output: "Legal" }
 ]);
 
 
