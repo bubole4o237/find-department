@@ -77,8 +77,7 @@ let someData = `Director, Marketing"
 "Regional Business Controller - Int'l (APAC/MEA) - Cloud and Artificial Intelligence Controllership "
 "Account Executive in Microsoft Consulting Services"
 "General Manager Business Development"
-"it"
-"cloud"`;
+"it"`;
 
 let someArray = someData.split('"\n"');
 

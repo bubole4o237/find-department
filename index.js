@@ -1,6 +1,7 @@
 const findDepartment = require('./findDepartment.js');
 
-let position = "IT Application Manager";
+let position = "mbg service manager";
+// let position = "IT Application Manager";
 
 let department = findDepartment(position);
 
