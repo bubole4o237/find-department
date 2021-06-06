@@ -157,7 +157,8 @@ intentClassifier.trainBatch([
     { input: "senior manager intenational business development", output: "Intenational Business Development" },
     { input: "customer support japan and apac", output: "Maintenance" },
     { input: "innovation engagement manager", output: "innovation / R&D" },
-    { input: "senior contract specialist", output: "Legal, Administration" }
+    { input: "senior contract specialist", output: "Legal, Administration" },
+    { input: "vice president, head of finance", output: "Account" }
 ]);
 
 
